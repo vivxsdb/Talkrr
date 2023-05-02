@@ -12,7 +12,7 @@ const socket=io();
 
 socket.emit('joinRoom',{username,room});
 
-socket.emit('roomUsers',({room,users})=>{
+socket.on('roomUsers',({room,users})=>{
   console.log(room);
 outputRoomName(room);
 outputUsers(users);

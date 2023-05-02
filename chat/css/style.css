@@ -1,25 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
-:root {
-	--dark-color-a: #667aff;
-	--dark-color-b: #7386ff;
-	--light-color: #e6e9ff;
-	--success-color: #5cb85c;
-	--error-color: #d9534f;
-}
-
 * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 }
-
+.names{
+ color:black;
+ font-weight:600;
+}
 body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
-	background-image:linear-gradient(45deg,#4ac29a,#bdfff3);
+	background-image:url("https://i.pinimg.com/736x/07/b3/7d/07b37d9e8af59caf15b0f8e1b49da368--whatsapp-background.jpg");
 	background-repeat:no-repeat;
-	height:100vh;
+	background-size:cover;
 	margin: 20px;
 }
 
@@ -34,24 +29,26 @@ a {
 .btn {
 	cursor: pointer;
 	padding: 5px 15px;
-	background:#8EECBB ;
-	color: white;
+	background:#ABC4AA ;
+	color: black;
 	border: 0;
 	font-size: 17px;
-	text-shadow:2px 2px 2px black;
+	font-weight:600;
+	border-radius:50px;
 }
-
-/* Chat Page */
+.btn:hover {
+	box-shadow:1px 1px 2px black;
+}
 
 .chat-container {
 	max-width: 1100px;
-	background: #fff;
+	background: #ffF3DEBA;
 	margin: 30px auto;
 	overflow: hidden;
 }
 
 .chat-header {
-	background: #5FAE85;
+	background: #A9907E;
 	color: #fff;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
@@ -67,8 +64,7 @@ a {
 }
 
 .chat-sidebar {
-	background: #49CD88;
-	color: #fff;
+	background: #F3DEBA;
 	padding: 20px 20px 60px;
 	overflow-y: scroll;
 }
@@ -97,7 +93,7 @@ a {
 .chat-messages .message {
 	padding: 10px;
 	margin-bottom: 15px;
-	background-color: #61B88A 	;
+	background-color: #ABC4AA 	;
 	border-radius: 5px;
 }
 
@@ -115,7 +111,7 @@ a {
 
 .chat-form-container {
 	padding: 20px 30px;
-	background-color: #36A16B 	;
+	background-color: #A9907E	;
 }
 
 .chat-form-container form {
@@ -140,14 +136,14 @@ a {
 .join-header {
 	text-align: center;
 	padding: 20px;
-	background: #92D5B2;
+	background:#A9907E;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
 }
 
 .join-main {
 	padding: 30px 40px;
-	background: #377A57 ;
+	background: #F3DEBA ;
 }
 
 .join-main p {
