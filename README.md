@@ -1,3 +1,8 @@
 # Talkrr
-In this project, a real-time chat application has been developed which will run on local machine. The front-end webpage will prompt the user for their name to keep track of who is sending the messages. This page can be opened in as many windows as the user wants. If a message is sent from one window, it will be displayed in every windows. So, it is just like a real-time web-page opened in multiple clients’ browser which are connected to a common server, i.e, localhost.
+The Talkrr project is a real-time chat application designed to run on a local machine, facilitating communication between users on the same network. The application consists of a front-end webpage where users can enter their names to identify themselves in the chat. This webpage can be opened in multiple windows or tabs within the same browser or across different browsers.
+
+Once the user enters their name, they can start sending messages, which are then displayed in real-time across all instances of the webpage open on the network. This means that if a user sends a message from one window, it will instantly appear in every other window that is open, creating a seamless and synchronous chatting experience.
+
+The architecture of Talkrr involves a client-server model where each instance of the webpage acts as a client, and there is a common server running on localhost that manages the communication between clients. When a message is sent from a client, it is transmitted to the server, which then relays it to all connected clients, ensuring that everyone receives the message simultaneously.
+Website Link : https://talkrr1.onrender.com
 
